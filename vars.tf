@@ -1,5 +1,10 @@
 # Configure these variables
 
+variable "TF_VERSION" {
+  description = "terraform version."
+  default     = 0.13
+}
+
 variable "sample_var" {
   description = "A sample var to pass to the template."
   default     = "hello"
