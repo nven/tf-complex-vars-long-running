@@ -63,4 +63,9 @@ output "nested_complex_local_out" {
   value       = local.nested_complex_local
   description = "nested_complex_local"
 }
+    
+output "nested_complex" {
+  value       = var.nested_complex
+  description = "nested_complex"
+}
 
