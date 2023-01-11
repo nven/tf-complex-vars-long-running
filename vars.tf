@@ -13,7 +13,7 @@ variable "sample_var" {
 variable "sleepy_time" {
   description = "How long Rocky naps before the series of fights"
   type = number
-  default = 0
+  default = 1800
 }
 
 variable "number_auto" {

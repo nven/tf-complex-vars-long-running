@@ -13,8 +13,8 @@ resource "null_resource" "sleep" {
   }
 
   provisioner "local-exec" {
-    //command = "sleep ${var.sleepy_time}"
-    command = "echo ${var.map_ref_test["age"]}"
+    command = "sleep ${var.sleepy_time}"
+    //command = "echo ${var.map_ref_test["age"]}"
   }
 }
 
